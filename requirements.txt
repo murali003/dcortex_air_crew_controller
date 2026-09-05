@@ -1,0 +1,7 @@
+# Core — always needed
+streamlit>=1.38.0
+
+# Pick ONE to match DCORTEX_PROVIDER (installing all three is fine too)
+anthropic>=0.40.0          # DCORTEX_PROVIDER=anthropic
+google-genai>=1.0.0        # DCORTEX_PROVIDER=gemini
+openai>=1.50.0             # DCORTEX_PROVIDER=openai
